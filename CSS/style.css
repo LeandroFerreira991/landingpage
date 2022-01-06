@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@600&family=Roboto:ital,wght@1,300&display=swap');
+
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
+.title{
+
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 600;
+    color: #243665;    
+}
+
+.subtitle{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+ .teste {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+    .conteudo{
+        border-top: 0.4px solid #243665;
+    }
+
+.icone{
+    font-size: 32px;
+    color: #243665;
+   
+}
+
+.elementos{
+        width: 400px;
+        margin: 70px 70px;
+}
+
+    
+ /* .botao {
+    padding: 5px 30px;
+    background-color:#243665 ;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    border: 1px;
+}
+
+ .botao_dois {
+    padding: 20px 30px;
+    background-color:#243665 ;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    border: 1px;
+}
+ .botao:hover, .botao_dois {
+    background-color:#fff ;
+    color: #243665;
+
+} */
+
+ .form_dados{
+    width: 800px;
+    height: 150px;
+    margin:  auto;
+ /* border: solid 1px #181327; */
+    background-color: #ffffff10;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px); 
+}
+
+ .dicas__hospedagem{
+    height: 40vh;
+    background-color: #8f8e8e;
+     margin: 20px;
+    border-radius: 20px;
+}
+
+ .destaque {
+  display: block;
+  background: #ebebeb;
+  border-radius: 5px;
+  text-align: center;
+  padding: 20px;
+  color: #000;
+  text-decoration: none;
+  transition: all ease-out 0.2s;
+ }
+
+ #servicos a.destaque:hover {
+  background: #fff;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.12);
+  transform: scale(1.05);
+ }
+ .img_container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px; 
+ }
+
+ 
+/* media querie */
+
+
+
+    @media (min-width: 355px) and (max-width:1024px) {
+         
+    .footer {
+    padding: 2em 5%;
+    text-align: center;
+    font-size: 1rem;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     font-size: 1rem;
+}
+
+    }
+    
