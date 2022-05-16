@@ -8,7 +8,8 @@
 
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 600;
-    color: #243665;    
+    color: #243665;  
+  
 }
 
 .subtitle{
@@ -36,6 +37,16 @@
 .elementos{
         width: 400px;
         margin: 70px 70px;
+}
+
+.tema .botao_dark {
+  align-items: flex-end;
+  font-size: 16px;
+  padding: 5px 16px;
+  background: #ECF4FF;
+  box-sizing: border-box;
+  border-radius: 100px;
+  border: 2px solid #0E1D2F;
 }
 
     
@@ -101,6 +112,63 @@
   justify-content: center;
   height: 200px; 
  }
+
+ /* Dark */
+ .dark {
+  background: linear-gradient(236.85deg, #000000 27.26%, #010407 96.03%);
+}
+
+.dark .navbar{
+    background-color: #000000;
+}
+  
+.dark .container h2{
+  /* background: #333439; */
+  color: #F6F6F6;
+}
+
+.dark .destaque {
+    background: #2b2b2b;
+}
+
+.dark h4{
+    color: #8f8e8e;
+
+}
+
+.dark .portfolio {
+  color: #1C1C1C;
+}
+
+.dark .tema button {
+  color: #FFFFFF;
+  background: #1C1C1C;
+  box-sizing: border-box;
+  border-radius: 100px;
+  border: 2px solid #F7F7F7;
+}
+
+/* ::-webkit-scrollbar{
+width: 5px;
+height: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+background: #1C1C1C;
+border: 1.8px solid #1C1C1C;
+border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+background: #ECF4FF;
+}
+
+::-webkit-scrollbar-track{
+background: #ECF4FF;
+border-radius: 100px;
+box-shadow: inset 0px 0px 0px 0px #F0F0F0;
+margin: 15px 0px;
+} */
 
  
 /* media querie */
