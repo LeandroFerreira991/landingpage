@@ -23,10 +23,10 @@
     justify-content: center;
     align-items: center;
 }
- 
+/*  
     .conteudo{
         border-top: 0.4px solid #243665;
-    }
+    } */
 
 .icone{
     font-size: 32px;
@@ -50,45 +50,17 @@
 }
 
     
- /* .botao {
-    padding: 5px 30px;
-    background-color:#243665 ;
-    font-size: 16px;
-    text-transform: uppercase;
-    color: #fff;
-    border: 1px;
-}
 
- .botao_dois {
-    padding: 20px 30px;
-    background-color:#243665 ;
-    font-size: 16px;
-    text-transform: uppercase;
-    color: #fff;
-    border: 1px;
-}
- .botao:hover, .botao_dois {
-    background-color:#fff ;
-    color: #243665;
 
-} */
-
- .form_dados{
-    width: 800px;
-    height: 150px;
-    margin:  auto;
- /* border: solid 1px #181327; */
-    background-color: #ffffff10;
+ .form-group{    
+    width: 400px;
+    height: 50px;       
+    /* background-color: #ffffff10;
     backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px); 
+    -webkit-backdrop-filter: blur(12px);  */
 }
 
- .dicas__hospedagem{
-    height: 40vh;
-    background-color: #8f8e8e;
-     margin: 20px;
-    border-radius: 20px;
-}
+
 
  .destaque {
   display: block;
@@ -127,13 +99,41 @@
   color: #F6F6F6;
 }
 
+.dark .icone {
+    font-size: 32px;
+    color: #3556a7;
+}
+
 .dark .destaque {
+    color: #F7F7F7;
     background: #2b2b2b;
 }
 
-.dark h4{
+ .dark #servicos a.destaque:hover {
+     color: #000;
+     background: #fff;
+     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.12);
+     transform: scale(1.05);
+ }
+
+.dark h4 {
     color: #8f8e8e;
 
+}
+
+.dark .card{
+    color: #F7F7F7 ;
+    background-color: #1C1C1C;
+
+}
+
+.dark #tech{
+    color:#F6F6F6 ;
+    
+}
+
+.dark .form-group{
+    color: #F6F6F6;
 }
 
 .dark .portfolio {

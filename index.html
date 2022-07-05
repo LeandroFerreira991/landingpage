@@ -33,7 +33,7 @@
 
 
   <!-- Menu inicial -->
-  <nav class="navbar navbar-expand-lg ">    
+  <nav class="navbar navbar-expand-lg fixed-top ">    
     <!-- <a class="navbar-brand" href="#"><img src=" " alt=""></a> -->
     <!-- <i class="fa-solid fa-code"></i> -->
     <h3 class="title"> <i class=" icone fas fa-code"></i> LeandroDEV</h3>
@@ -52,21 +52,24 @@
         <li class="subtitle nav-item active">
           <a class="nav-link" href="#tres">Nossos Serviços</a>
         </li>
-        <!-- <li class="subtitle nav-item active">
-          <a class="nav-link" href="#quatro">Conhecimentos</a>
+        <li class="subtitle nav-item active">
+          <a class="nav-link" href="#tech">Tecnologias</a>
         </li>
         <li class="subtitle nav-item active">
           <a class="nav-link" href="#cinco">contato</a>
-        </li> -->
+        </li>
       </ul>
    
     </div>
   </nav>
+  <br>
+  <br>
+  <br>
   <!-- Fim do Menu -->  
 
   <!-- Botão dark -->
-        <div class="tema my-1 ">
-          <button onClick="mudaModo()" class=" btn botao_dark">Alterar tema</button>
+        <div class="tema ml-5 my-1">
+          <button onClick="mudaModo()" class=" btn botao_dark"> Dark Mode  </button>
         </div>
       
       
@@ -82,10 +85,9 @@
               <div class="col-md-6 align-self-center order-md-2 order-1 mb-md-0 mb-4">
                 <h2 class="title">Quem Sou?</h2>
                 <h4 class="subtitle">              
-                  Meu nome é Leandro Ferreira, ou “LeandroDEV” (é como me chamam agora). Sou freelancer como Front-end developer.
+                  Meu nome é Leandro Ferreira,sou freelancer como Front-end developer.
                   Desenvolvo interfaces modernas e de alta qualidade, concentrado em performance, animações, responsividade e SEO.
-                </h4>
-        
+                </h4>       
                
               </div>
             </div>
@@ -103,63 +105,49 @@
     <div class="container my-5">
       <h2 id="dois" class="title text-center">Projetos</h2>
       <h4 class="subtitle text-center mb-4">
-
       </h4>
-      <div class="row">
-        <div class="col-lg-3 col-md-6 mb-lg-0 mb-4">
-          <a href="https://leandroferreira991.github.io/AcessMais-/" class="destaque">
-            <div class="img-container mb-3">
-              <img src="./Img/img_acess.jpg" class="img-fluid" />
-            </div>
-            <h5 class="text-uppercase">AcessMais</h5>
-            <p class="mb-0">              
-            </p>
-            <br>
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-6 mb-lg-0 mb-4">
-          <a href="https://leandroferreira991.github.io/CLONENETFLIX/" class="destaque">
-            <div class="img-container mb-3">
-              <img src="./Img/img_Net.jpeg" class="img-fluid" />
-            </div>
-            <h5 class="text-uppercase">Clone Netflix</h5>
-            <p class="mb-0">
-            <!-- Pegue o café e espere um pouco, estou desenvolvendo o projeto. -->
-            </p>
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-6 mb-lg-0 mb-4">
-          <a href="https://leandroferreira991.github.io/formulario/" class="destaque">
-            <div class="img-container mb-3">
-              <img src="./Img/img_for.jpeg" class="img-fluid" /> 
-            </div>
-            <h5 class="text-uppercase">Formulário</h5>
-            <p class="mb-0">
-              <!-- Pegue o café e espere um pouco, estou desenvolvendo o projeto. -->
-            </p>
-            <br>
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-6 mb-lg-0 mb-4">
-          <a href="http://sitetraveller.s3-website-us-east-1.amazonaws.com/Traveller.html" class="destaque">
-            <div class="img-container mb-3">
-              <img src="./Img/img_tra.jpeg" class="img-fluid" />
-            </div>
-            <h5 class="text-uppercase">Site Traveller</h5>
-            <p class="mb-0">
-              <!-- Pegue o café e espere um pouco, estou desenvolvendo o projeto. -->
-            </p>
-            <br>
-          </a>
-        </div>
 
-      </div>
-    </div>
+      <div class="card-deck">
+        <div class="card">
+          <img class="card-img-top" src="./Img/img_control.png" alt="Imagem de capa do card">
+          <div class="card-body">
+            <h5 class="card-title">Título do card</h5>
+            <p class="card-text">Foi desenvolvida uma aplicação para controle de suas despesas,
+              a aplicação foi desenvolvida em HTML, CSS e JavaScript.</p>
+            <a href="https://leandroferreira991.github.io/Controle-de-despesas/" class="btn btn-primary">Ver o site</a>
+            <a href="https://github.com/LeandroFerreira991/Controle-de-despesas" class="btn btn-secondary">GitHub</a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="./Img/img_jogo.png" alt="Imagem de capa do card">
+          <div class="card-body">
+            <h5 class="card-title">Jogo da cobrinha</h5>
+            <p class="card-text">Foi desenvolvido com JavaScript o "Jogo da cobrinha</p><br>
+          <a href="https://leandroferreira991.github.io/Jogo-da-cobrinha/" class="btn btn-primary">Ver o site</a>
+          <a href="https://github.com/LeandroFerreira991/Jogo-da-cobrinha" class="btn btn-secondary">GitHub</a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="./Img/img_conv.png" alt="Imagem de capa do card">
+          <div class="card-body">
+            <h5 class="card-title">Conversor de Moedas</h5>
+            <p class="card-text">Foi desenvolvido um conversor de moedas utilizando JavaScript e
+               uma API que faz a cotação em tempo real. </p>
+            <a href="https://leandroferreira991.github.io/conversor/" class="btn btn-primary">Ver o site</a>
+            <a href="https://github.com/LeandroFerreira991/conversor" class="btn btn-secondary">GitHub</a>
+          </div>
+        </div>
+      </div>    
+     
   </div>
   </div>
 </section>
 
-<!-- Fim do conteúdo 1 -->
+<br>
+
+
+
+
 
   
 
@@ -225,71 +213,105 @@
         </div>
       </div>
   </section>
+
+  <br>
+  <br>
+  <br>
+
 <!--//NOSSOS SERVICOS-->  
+
+<!-- Tecnologias -->
+<section>
+  <div id="tech" class="block no-gutters ">
+    <div class="container-fluid my-5">
+      <h2 class="title text-center mb-2" id="tres">Tecnologias</h2>
+      <div class="row d-flex justify-content-around text-center">
+        <div class="col-lg-3 col-md-6 mb-lg-0 mb-4 p-2 ">
+          <img src="./Img/css3.png" class="" alt="Logo CSS3"><br> <br>
+          <p>CSS3</p>
+          </div>
+            <div class="col-lg-3 col-md-6 mb-lg-0 mb-4 p-2 ">
+              <img src="./Img/dbc33f80-2674-11eb-89b9-0f6d098a2c80.png" class="" alt="Logo JavaScript"> <br><br>
+              <p>JavaScript</p>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-lg-0 mb-4 p-2 ">
+              <img src="./Img/html5-logo-8.png" class="" alt="Logo HTML 5"><br><br>
+              <p>HTML5</p>
+            </div>   
+</section>
+<br>
+<br>
+<br>
+
+<!-- Fim Tecnologias -->
   
    
-  <!--SOBRE-->
+  <!--contato-->
   
-  <!-- <div id="Forum" class="block my-5">
-    <div class="container">
+  <div id="cinco" class="block row d-flex justify-content-around  my-5">
+    <div class="container-fluid">
       <div class="row">
-        <div class="col-md-6 align-self-center text-center order-md-1 order-2">
-          <img src="./Img/img_pexels.jpeg" class="img-fluid" />
+        <div class=" ml-5  col-md-6 order-md-2 order-1 mb-md-0 mb-4">
+          <form>
+            <div class="form-group ">
+              <label for="formGroupExampleInput">Nome</label>
+              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nome">
+            </div><br>
+            <div class="form-group >
+              <label for=" formGroupExampleInput" class="">Email</label>
+              <div class="">
+                <input type="email" class="form-control" id="colFormLabel" placeholder="Email">
+              </div><br>
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Mensagem</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+          </form>
         </div>
-        <div   class="col-md-6 align-self-center order-md-2 order-1 mb-md-0 mb-4">
-          <h2 class="title" >Conhecimentos.</h2>
-          <h4 class="subtitle">
-           Compartiher sua experiência conosco
-          </h4>
-          
-          <a href="#" class="btn btn-primary botao button button-primary">Visitar fórum</a>
-        </div>
+        
+       
+
+        <div  class="col-md-4 align-self-center order-md-2 order-1 mb-md-0 mb-4">
+          <h2 class="title" >Contato</h2><br>
+          <h4 class="subtitle ">
+          Entre em contato comigo através dos links
+          a baixo ou preencha o formulário.</h4><br>
+                <a href="https://www.instagram.com/leandrodevolper/" rel="noopener" target="_blank">
+                  <i class="icone fab fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/leandro-ferreira-393204223/" rel="noopener" target="_blank">
+                  <i class="icone fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/LeandroFerreira991" rel="noopener" target="_blank">
+                  <i class="icone fab fa-github"></i>
+                </a>
+                <a href="mailto:leandrodevolper@gmail.com">
+                  <i class="icone far fa-envelope"></i>
+                </a>
+              </div>         
+          </div>
       </div>
     </div>
-  </div> -->
-  <!--//SOBRE-->
+  </div>
+  <br>
+  <br>
+  <br>
+  <!--/contato-->
 
-  <!-- Conteúdo2 -->
+
   
-
-  <!-- <div class="">
-    <div class="container-fluid text-center  col-sm-6 mt-5 my-5">
-      <h2 id="cinco" class="title">Entre em contato conosco!</h2>
-      <p>
-      <button type="submit" class=" btn botao">Contato</button>
-      </p>
-    </div>
-  </div> -->
-  <!-- Conteúdo2  -->
-
-    
-
-     <!-- Voltar ao Topo -->
-  <!-- <div class="text-center ">
-          <p><a href="#titulo">Topo da página</a></p>
-       </div> -->
-   <!-- Fim de volta ao topo -->
+ 
 
 
   <!--Rodapé-->
   
       <footer class=" no-gutters text-center pt-5" >
-          <!-- <p> &copy; LeandroDEV</p> -->
-            <div class=" subtitle grid-layout">
-              <p>Orgulhosamente feito por Leandro Ferreira</p>
-              <div >
-                <a href="https://www.instagram.com/leandrodevolper/" rel="noopener" target="_blank">             
-                  <i class="icone fab fa-instagram"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/leandro-ferreira-393204223/" rel="noopener" target="_blank">             
-                  <i class="icone fab fa-linkedin"></i>
-                </a>
-                <a href="https://github.com/LeandroFerreira991" rel="noopener" target="_blank">             
-                  <i class="icone fab fa-github"></i>
-                </a>
-                <a href="mailto:leandrodevolper@gmail.com">              
-                  <i class="icone far fa-envelope"></i>
-                </a>
+        <div class=" subtitle grid-layout">
+          <p>Desenvolvido por Leandro Ferreira</p>
+          <div>
+          <p> &copy;LeandroDEV</p>          
+               
               </div>
             </div>
         </footer>       
